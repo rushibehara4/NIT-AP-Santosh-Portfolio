@@ -1,3 +1,69 @@
-* {
-  margin: 0;padding: 0;
+.header-container {
+  background-color: #F8FAFC;
+}
+
+.link-name-style {
+  text-decoration: none;
+}
+
+.nav-logo-name {
+  font-size: 23px;
+  color: #213555;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nit-logo {
+  height: 65px;
+  width: 65px;
+  margin-right: 7px;
+}
+
+.nav-links-element {
+  color: #213555;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.publication-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-tabs .nav-link {
+  color: #000; /* Default text color */
+  background-color: #f8f9fa; /* Default background */
+  border: 1px solid #ddd; /* Border around tabs */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-tabs .nav-link:hover {
+  background-color: #e2e6ea; /* Hover effect */
+}
+
+.custom-tabs .nav-link.active-tab {
+  color: #fff; /* Text color for active tab */
+  background-color: #9AA6B2; /* Background color for active tab */
+  border-color: #9AA6B2; /* Border color for active tab */
+}
+
+.tab-content {
+  padding: 20px;
+  background-color: #9AA6B2; /* Background color for content */
+  border: 1px solid #ddd; /* Border for content area */
+  border-top: none; /* No border at the top to merge with tabs */
+  color: #333; /* Text color */
+  border-radius: 0 0 5px 5px; /* Rounded bottom corners */
+  height: 80vh;
 }
